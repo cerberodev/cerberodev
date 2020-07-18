@@ -1,0 +1,25 @@
+{
+  "name": "cerberodev",
+  "version": "1.0.0",
+  "description": "cerberodev README GitHub profile",
+  "main": "index.js",
+  "scripts": {
+    "update-readme": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerberodev/cerberodev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cerberodev/cerberodev/issues"
+  },
+  "homepage": "https://github.com/cerberodev/cerberodev#readme",
+  "dependencies": {
+    "node-fetch": "2.6.0",
+    "rss-parser": "3.8.0"
+  }
+}
