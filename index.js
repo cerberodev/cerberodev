@@ -1,9 +1,10 @@
 const {YOUTUBE_API_KEY} = process.env
-//const fs = require('fs').promises
-//const fetch = require('node-fetch')
+const fs = require('fs').promises
+const fetch = require('node-fetch')
 
-//const Parser = require('rss-parser')
-//const parser = new Parser()
+const Parser = require('rss-parser')
+const parser = new Parser()
+
 
 const NUM_OF_VIDEOS_TO_SHOW = 3
 
@@ -11,10 +12,10 @@ const LATEST_YOUTUBE_VIDEOS = "%{{latest_youtube}}%"
 // const LATEST_TWEET_PLACEHOLDER = "%{{latest_tweet}}%"
 // const LATEST_INSTAGRAM_PHOTO = "%{{latest_instagram}}%"
 
-const getLatestYoutubeVideos = async () => {
-  const res = await fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PL4DDrIrz67NApBMkJ4WLqxslYk-D4uJwt&maxResults=${NUM_OF_VIDEOS_TO_SHOW}&key=${YOUTUBE_API_KEY}`)
-  const videos = await res.json()
-  return videos.items
+const getLatestYoutubeVideos = () => {
+  return fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PL4DDrIrz67NApBMkJ4WLqxslYk-D4uJwt&maxResults=${NUM_OF_VIDEOS_TO_SHOW}&key=${YOUTUBE_API_KEY}`)
+    .then(res => res.json())
+    .then(videos => videos.items)
 }
 
 const generateYoutubeHTML = ({title, videoId}) => `
@@ -27,13 +28,14 @@ const generateYoutubeHTML = ({title, videoId}) => `
 (async () => {
   const [template, videos] = await Promise.all([
     fs.readFile('./README.md.tpl', { encoding: 'utf-8' }),
+    parser.parseURL('#'),
     getLatestYoutubeVideos()
   ])
 
   // create latest article markdown
-  //const latestArticlesMarkdown = articles.slice(0, NUM_OF_ARTICLES_TO_SHOW)
-  //  .map(({title, link}) => `- [${title}](${link})`)
-  //  .join('\n')
+  const latestArticlesMarkdown = articles.slice(0, NUM_OF_ARTICLES_TO_SHOW)
+    .map(({title, link}) => `- [${title}](${link})`)
+    .join('\n')
 
   // create latest youtube videos channel
   const latestYoutubeVideos = videos
