@@ -1,8 +1,9 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ master ]
+  on:
+  schedule:
+    - cron: "0 */4 * * *"
 
 jobs:
   build:
