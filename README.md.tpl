@@ -1,7 +1,7 @@
 ![me](https://firebasestorage.googleapis.com/v0/b/cerberodev-cf89d.appspot.com/o/banner.png?alt=media&token=2446e47d-db03-48cf-adbd-1a492a6f5273)
 
 <h1 align="center">Hi 👋, I'm Pierre Guillen</h1>
-<h3 align="center">Flutter Developer</h3>
+<h3 align="center">Flutter Developer, from Perú</h3>
 
 <p align="center">
    <a href="https://youtube.com/cerberodev" target="blank" style='margin-right:4px'>
