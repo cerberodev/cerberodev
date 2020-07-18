@@ -1,7 +1,6 @@
 name: Node.js CI
 
 on:
-  on:
   schedule:
     - cron: "0 */4 * * *"
 
@@ -22,6 +21,5 @@ jobs:
         git config user.name cerberodev
         git config user.email hi@cerbero.dev
         git add README.md
-        git add .
         git commit -m "[bot] Update README with latest info"
         git push origin master
