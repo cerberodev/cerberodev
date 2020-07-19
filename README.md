@@ -4,22 +4,23 @@
 <h3 align="center">Flutter Developer, from Perú</h3>
 
 <p align="center">
-   <a href="https://youtube.com/cerberodev" target="blank" style='margin-right:4px'>
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="midudev" height="28px" width="28px" />
+   <a href="https://youtube.com/cerberodev" target="_blank" style='margin-right:4px'>
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="cerberodev" height="28px" width="28px" />
   </a>
-  <a href="https://twitter.com/cerberodev" target="blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="midudev" height="28px" width="28px" />
+  <a href="https://twitter.com/cerberodev" target="_blank">
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="cerberodev" height="28px" width="28px" />
   </a>
-  <a href="https://fb.com/cerberodev" target="blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="midudev.frontend" height="28px" width="28px" />
+  <a href="https://fb.com/cerberodev" target="_blank">
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="cerberodev" height="28px" width="28px" />
   </a>
-  <a href="https://instagram.com/cerberodev" target="blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="midu.dev" height="28px" width="28px" />
+  <a href="https://instagram.com/cerberodev" target="_blank">
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="cerberodev" height="28px" width="28px" />
   </a>
 </p>
 
 <br></br>
-->### 📹 My latest videos on [my Youtube Channel](https://youtube.com/cerberodev):<-
+<h1 align="center">My latest videos on  <a href="https://youtube.com/cerberodev" target="_blank">my Youtube Channel</a></h1
+
 <br></br>
 
 <div align="center">
@@ -39,7 +40,6 @@
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=cerberodev">
 </p>
-<br></br>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/github/explore/cebd63002168a05a6a642f309227eefeccd92950/topics/flutter/flutter.png" alt="flutter" width="24px" height="24px"/>
