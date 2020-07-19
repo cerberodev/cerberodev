@@ -32,7 +32,6 @@
 <a href='https://youtu.be/SSuLwKNaU_8' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/SSuLwKNaU_8/mqdefault.jpg' alt='FlutterDay Perú' />
 </a>
-%{{latest_youtube}}%
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=cerberodev">
