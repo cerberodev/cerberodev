@@ -20,8 +20,8 @@ jobs:
       env:
         YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
     - run: |
-        git config --global user.email "hi@cerbero.dev"
-        git config --global user.name "cerberodev"
+        git config --global user.email hi@cerbero.dev
+        git config --global user.name cerberodev
         git add README.md
         git add .
         git commit -m "[bot] Update README with latest info"
