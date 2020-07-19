@@ -19,6 +19,7 @@
 </p>
 
 ### 📹 My latest videos on [my Youtube Channel](https://youtube.com/cerberodev):
+<div align="center">
 
 <a href='https://youtu.be/XY3xpb5wLec' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/XY3xpb5wLec/mqdefault.jpg' alt='Workshop Flutter + Firebase #1 2020 clase 01' />
@@ -29,9 +30,7 @@
 <a href='https://youtu.be/rRmXWUoqWas' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/rRmXWUoqWas/mqdefault.jpg' alt='GDG Arequipa - Meetup Firebase 2020' />
 </a>
-<a href='https://youtu.be/SSuLwKNaU_8' target='_blank'>
-  <img width='30%' src='https://img.youtube.com/vi/SSuLwKNaU_8/mqdefault.jpg' alt='FlutterDay Perú' />
-</a>
+</div>
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=cerberodev">
