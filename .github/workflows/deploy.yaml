@@ -1,8 +1,10 @@
-name: Node.js CI
+name: Update README.md
 
 on:
+  workflow_dispatch:
+  
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: "0 */1 * * *"
 
 jobs:
   build:
