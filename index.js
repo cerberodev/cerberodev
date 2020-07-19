@@ -1,4 +1,4 @@
-const {YOUTUBE_API_KEY, INSTAGRAM_USER = 'midu.dev', INSTAGRAM_TOKEN = '.W1ldky0;***'} = process.env
+const {YOUTUBE_API_KEY, INSTAGRAM_USER = 'cerberodev', INSTAGRAM_TOKEN = '.W1ldky0;***'} = process.env
 const fs = require('fs').promises
 const fetch = require('node-fetch')
 
@@ -6,14 +6,13 @@ const Parser = require('rss-parser')
 const parser = new Parser()
 
 const Instagram = require('instagram-web-api')
- 
 const client = new Instagram({username: INSTAGRAM_USER, password: INSTAGRAM_TOKEN})
 
 const NUM_OF_ARTICLES_TO_SHOW = 5
 const NUM_OF_PHOTOS_TO_SHOW = 4
-const NUM_OF_VIDEOS_TO_SHOW = 3
+const NUM_OF_VIDEOS_TO_SHOW = 4
 
-const LATEST_ARTICLE_PLACEHOLDER = "%{{latest_articles}}%"
+//const LATEST_ARTICLE_PLACEHOLDER = "%{{latest_articles}}%"
 const LATEST_YOUTUBE_VIDEOS = "%{{latest_youtube}}%"
 const LATEST_INSTAGRAM_PHOTO = "%{{latest_instagram}}%"
 // const LATEST_TWEET_PLACEHOLDER = "%{{latest_tweet}}%"
