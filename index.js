@@ -1,39 +1,39 @@
-const {YOUTUBE_API_KEY, INSTAGRAM_USER = 'cerberodev', INSTAGRAM_TOKEN = '.W1ldky0;***'} = process.env
-const fs = require('fs').promises
-const fetch = require('node-fetch')
+const {YOUTUBE_API_KEY} = process.env
+import { promises as fs } from 'fs'
+import fetch from 'node-fetch'
 
-const Parser = require('rss-parser')
-const parser = new Parser()
+//const Parser = require('rss-parser')
+//const parser = new Parser()
 
-const Instagram = require('instagram-web-api')
-const client = new Instagram({username: INSTAGRAM_USER, password: INSTAGRAM_TOKEN})
-
-const NUM_OF_ARTICLES_TO_SHOW = 5
-const NUM_OF_PHOTOS_TO_SHOW = 4
+//const Instagram = require('instagram-web-api')
+//const client = new Instagram({username: INSTAGRAM_USER, password: INSTAGRAM_TOKEN})
+//
+//const NUM_OF_ARTICLES_TO_SHOW = 5
+//const NUM_OF_PHOTOS_TO_SHOW = 4
 const NUM_OF_VIDEOS_TO_SHOW = 4
 
 //const LATEST_ARTICLE_PLACEHOLDER = "%{{latest_articles}}%"
 const LATEST_YOUTUBE_VIDEOS = "%{{latest_youtube}}%"
-const LATEST_INSTAGRAM_PHOTO = "%{{latest_instagram}}%"
+//const LATEST_INSTAGRAM_PHOTO = "%{{latest_instagram}}%"
 // const LATEST_TWEET_PLACEHOLDER = "%{{latest_tweet}}%"
 
-const getPhotosFromInstagram = async () => {
-  await client.login()
-  const { user } = await client.getPhotosByUsername({username: 'midu.dev', first: NUM_OF_PHOTOS_TO_SHOW})
-  const {edge_owner_to_timeline_media: {page_info, edges}} = user
-  return edges
+//const getPhotosFromInstagram = async () => {
+//  await client.login()
+//  const { user } = await client.getPhotosByUsername({username: 'midu.dev', first: NUM_OF_PHOTOS_TO_SHOW})
+//  const {edge_owner_to_timeline_media: {page_info, edges}} = user
+//  return edges
+//}
+
+const getLatestYoutubeVideos = async () => {
+  const res = await fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PL4DDrIrz67NApBMkJ4WLqxslYk-D4uJwt&maxResults=${NUM_OF_VIDEOS_TO_SHOW}&key=${YOUTUBE_API_KEY}`)
+  const videos = await res.json()
+  return videos.items
 }
 
-const getLatestYoutubeVideos = () => {
-  return fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=PL4DDrIrz67NApBMkJ4WLqxslYk-D4uJwt&maxResults=${NUM_OF_VIDEOS_TO_SHOW}&key=${YOUTUBE_API_KEY}`)
-    .then(res => res.json())
-    .then(videos => videos.items)
-}
-
-const generateInstagramHTML = ({shortcode, thumbnail_src}) => `
-<a href='https://www.instagram.com/p/${shortcode}/' target='_blank'>
-  <img width='20%' src='${thumbnail_src}' alt='Instagram photo' />
-</a>`
+//const generateInstagramHTML = ({shortcode, thumbnail_src}) => `
+//<a href='https://www.instagram.com/p/${shortcode}/' target='_blank'>
+//  <img width='20%' src='${thumbnail_src}' alt='Instagram photo' />
+//</a>`
 
 const generateYoutubeHTML = ({title, videoId}) => `
 <a href='https://youtu.be/${videoId}' target='_blank'>
@@ -42,17 +42,17 @@ const generateYoutubeHTML = ({title, videoId}) => `
 
 
 ;(async () => {
-  const [template, {items: articles}, videos, photos] = await Promise.all([
+  const [template, videos] = await Promise.all([
     fs.readFile('./README.md.tpl', { encoding: 'utf-8' }),
     //parser.parseURL('#'),
     getLatestYoutubeVideos(),
-    getPhotosFromInstagram()
+    //getPhotosFromInstagram()
   ])
 
   // create latest article markdown
-  const latestArticlesMarkdown = articles.slice(0, NUM_OF_ARTICLES_TO_SHOW)
-    .map(({title, link}) => `- [${title}](${link})`)
-    .join('\n')
+  //const latestArticlesMarkdown = articles.slice(0, NUM_OF_ARTICLES_TO_SHOW)
+  //  .map(({title, link}) => `- [${title}](${link})`)
+  //  .join('\n')
 
   // create latest youtube videos channel
   const latestYoutubeVideos = videos
@@ -64,15 +64,15 @@ const generateYoutubeHTML = ({title, videoId}) => `
     .join('')
 
   // create latest photos from instagram
-  const latestInstagramPhotos = photos
-    .map(({node}) => generateInstagramHTML(node))
-    .join('')
+  //const latestInstagramPhotos = photos
+  //  .map(({node}) => generateInstagramHTML(node))
+  //  .join('')
 
   // replace all placeholders with info
   const newMarkdown = template
-    .replace(LATEST_ARTICLE_PLACEHOLDER, latestArticlesMarkdown)
+    //.replace(LATEST_ARTICLE_PLACEHOLDER, latestArticlesMarkdown)
     .replace(LATEST_YOUTUBE_VIDEOS, latestYoutubeVideos)
-    .replace(LATEST_INSTAGRAM_PHOTO, latestInstagramPhotos)
+    //.replace(LATEST_INSTAGRAM_PHOTO, latestInstagramPhotos)
 
   await fs.writeFile('./README.md', newMarkdown)
 })()
