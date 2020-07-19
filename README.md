@@ -19,7 +19,7 @@
 </p>
 
 <br></br>
-<h1 align="center">My latest videos on  <a href="https://youtube.com/cerberodev" target="_blank">my Youtube Channel</a></h1
+<h3 align="center">My latest videos on  <a href="https://youtube.com/cerberodev" target="_blank">my Youtube Channel</a></h3>
 
 <br></br>
 
