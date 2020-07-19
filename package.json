@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/cerberodev/cerberodev#readme",
   "dependencies": {
-    "instagram-web-api": "2.2.0",
     "node-fetch": "2.6.0",
     "rss-parser": "3.8.0"
   }
