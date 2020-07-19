@@ -18,19 +18,11 @@
   </a>
 </p>
 
-<br></br>
 <h3 align="center">My latest videos on  <a href="https://youtube.com/cerberodev" target="_blank">my Youtube Channel</a></h3>
-
-<br></br>
 
 <div align="center">
 %{{latest_youtube}}%
 </div>
-
-<br></br>
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=cerberodev">
-</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/github/explore/cebd63002168a05a6a642f309227eefeccd92950/topics/flutter/flutter.png" alt="flutter" width="24px" height="24px"/>
@@ -38,3 +30,9 @@
   <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png" alt="firebase" width="24px" height="24px"/>
   <img src="https://konpa.github.io/devicon/devicon.git/icons/javascript/javascript-original.svg" alt="javascript" width="24px" height="24px"/>
 </p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=cerberodev">
+</p>
+
+
