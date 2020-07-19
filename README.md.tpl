@@ -19,10 +19,8 @@
 </p>
 
 ### 📹 My latest videos on [my Youtube Channel](https://youtube.com/cerberodev):
-
 %{{latest_youtube}}%
-
-%{{latest_instagram}}%
+%{{latest_youtube}}%
 
 <p align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=cerberodev">
