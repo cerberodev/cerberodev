@@ -22,6 +22,9 @@
 
 <div align="center">
 
+<a href='https://youtu.be/SBw98tYercQ' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/SBw98tYercQ/mqdefault.jpg' alt='Flutter Meetup' />
+</a>
 <a href='https://youtu.be/XY3xpb5wLec' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/XY3xpb5wLec/mqdefault.jpg' alt='Workshop Flutter + Firebase #1 2020 clase 01' />
 </a>
@@ -36,9 +39,6 @@
 </a>
 <a href='https://youtu.be/DfA_SV7w0jA' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/DfA_SV7w0jA/mqdefault.jpg' alt='Flutter Peru, 2do meetup online!' />
-</a>
-<a href='https://youtu.be/CJ2V5GJ7hvU' target='_blank'>
-  <img width='30%' src='https://img.youtube.com/vi/CJ2V5GJ7hvU/mqdefault.jpg' alt='Flutter Peru, 1er meetup online!' />
 </a>
 </div>
 
