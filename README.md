@@ -22,6 +22,9 @@
 
 <div align="center">
 
+<a href='https://youtu.be/rzbBlO7_Lo4' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/rzbBlO7_Lo4/mqdefault.jpg' alt='Flutter Web Nightly Talk' />
+</a>
 <a href='https://youtu.be/70eutTqODnw' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/70eutTqODnw/mqdefault.jpg' alt='Flutter Web in Action' />
 </a>
@@ -36,9 +39,6 @@
 </a>
 <a href='https://youtu.be/rRmXWUoqWas' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/rRmXWUoqWas/mqdefault.jpg' alt='GDG Arequipa - Meetup Firebase 2020' />
-</a>
-<a href='https://youtu.be/SSuLwKNaU_8' target='_blank'>
-  <img width='30%' src='https://img.youtube.com/vi/SSuLwKNaU_8/mqdefault.jpg' alt='FlutterDay Perú' />
 </a>
 </div>
 
