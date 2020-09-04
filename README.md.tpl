@@ -33,8 +33,7 @@
 </p>
 </div>
 
-<p align="center">
+<a align="center" href="https://github.com/cerberodev>
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cerberodev&theme=light&hide_langs_below=1" />
 <img src="https://github-readme-stats.vercel.app/api?username=cerberodev">
-</p>
-
-
+</a>
