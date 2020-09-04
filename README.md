@@ -51,7 +51,9 @@
 </p>
 </div>
 
-<a align="center" href="https://github.com/cerberodev>
+<div align="center">
+<a align="center" href="https://github.com/cerberodev">
 <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cerberodev&theme=light&hide_langs_below=1"/>
 <img align="rigth" src="https://github-readme-stats.vercel.app/api?username=cerberodev"/>
 </a>
+</div>
