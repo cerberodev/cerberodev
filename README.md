@@ -22,6 +22,15 @@
 
 <div align="center">
 
+<a href='https://youtu.be/I2vdMV3EkGU' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/I2vdMV3EkGU/mqdefault.jpg' alt='Meetup de Fin de año' />
+</a>
+<a href='https://youtu.be/aBaFAGu45eo' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/aBaFAGu45eo/mqdefault.jpg' alt='Charla: Flutter en 2020. ¿Por qué usarlo?' />
+</a>
+<a href='https://youtu.be/S6YRRNUX7Jg' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/S6YRRNUX7Jg/mqdefault.jpg' alt='Meetup Catracho #5: Persistencia de Datos en Flutter Web 💙' />
+</a>
 <a href='https://youtu.be/3CqofIzBs3Q' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/3CqofIzBs3Q/mqdefault.jpg' alt='Ingresando a Flutter Desktop' />
 </a>
@@ -30,15 +39,6 @@
 </a>
 <a href='https://youtu.be/70eutTqODnw' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/70eutTqODnw/mqdefault.jpg' alt='Flutter Web in Action' />
-</a>
-<a href='https://youtu.be/SBw98tYercQ' target='_blank'>
-  <img width='30%' src='https://img.youtube.com/vi/SBw98tYercQ/mqdefault.jpg' alt='Flutter Meetup' />
-</a>
-<a href='https://youtu.be/XY3xpb5wLec' target='_blank'>
-  <img width='30%' src='https://img.youtube.com/vi/XY3xpb5wLec/mqdefault.jpg' alt='Workshop Flutter + Firebase #1 2020 clase 01' />
-</a>
-<a href='https://youtu.be/aprSJZ29Wos' target='_blank'>
-  <img width='30%' src='https://img.youtube.com/vi/aprSJZ29Wos/mqdefault.jpg' alt='#FlutterDayMeetups Managua - FlutterNi' />
 </a>
 </div>
 
