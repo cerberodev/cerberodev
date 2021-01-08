@@ -22,9 +22,6 @@
 
 <div align="center">
 
-<a href='https://youtu.be/ka3fYTuQWMM' target='_blank'>
-  <img width='30%' src='https://img.youtube.com/vi/ka3fYTuQWMM/mqdefault.jpg' alt='The Fastest External SSD for Video Editing | M1 Mac' />
-</a>
 <a href='https://youtu.be/I2vdMV3EkGU' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/I2vdMV3EkGU/mqdefault.jpg' alt='Meetup de Fin de año' />
 </a>
@@ -39,6 +36,9 @@
 </a>
 <a href='https://youtu.be/rzbBlO7_Lo4' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/rzbBlO7_Lo4/mqdefault.jpg' alt='Flutter Web Nightly Talk' />
+</a>
+<a href='https://youtu.be/70eutTqODnw' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/70eutTqODnw/mqdefault.jpg' alt='Flutter Web in Action' />
 </a>
 </div>
 
