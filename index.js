@@ -10,7 +10,7 @@ const fetch = require('node-fetch')
 //
 //const NUM_OF_ARTICLES_TO_SHOW = 5
 //const NUM_OF_PHOTOS_TO_SHOW = 4
-const NUM_OF_VIDEOS_TO_SHOW = 6
+const NUM_OF_VIDEOS_TO_SHOW = 12
 
 //const LATEST_ARTICLE_PLACEHOLDER = "%{{latest_articles}}%"
 const LATEST_YOUTUBE_VIDEOS = "%{{latest_youtube}}%"
