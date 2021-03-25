@@ -22,6 +22,12 @@
 
 <div align="center">
 
+<a href='https://youtu.be/oem6GzK7nLQ' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/oem6GzK7nLQ/mqdefault.jpg' alt='¿Por qué RappiBank optó por Flutter?' />
+</a>
+<a href='https://youtu.be/ITMiISBvR80' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/ITMiISBvR80/mqdefault.jpg' alt='Flutter Engage Extended - En Español' />
+</a>
 <a href='https://youtu.be/I2vdMV3EkGU' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/I2vdMV3EkGU/mqdefault.jpg' alt='Meetup de Fin de año' />
 </a>
@@ -33,12 +39,6 @@
 </a>
 <a href='https://youtu.be/3CqofIzBs3Q' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/3CqofIzBs3Q/mqdefault.jpg' alt='Ingresando a Flutter Desktop' />
-</a>
-<a href='https://youtu.be/rzbBlO7_Lo4' target='_blank'>
-  <img width='30%' src='https://img.youtube.com/vi/rzbBlO7_Lo4/mqdefault.jpg' alt='Flutter Web Nightly Talk' />
-</a>
-<a href='https://youtu.be/70eutTqODnw' target='_blank'>
-  <img width='30%' src='https://img.youtube.com/vi/70eutTqODnw/mqdefault.jpg' alt='Flutter Web in Action' />
 </a>
 </div>
 
