@@ -22,6 +22,9 @@
 
 <div align="center">
 
+<a href='https://youtu.be/No9ZYllhQlc' target='_blank'>
+  <img width='30%' src='https://img.youtube.com/vi/No9ZYllhQlc/mqdefault.jpg' alt='Flutter Web con Firebase Auth' />
+</a>
 <a href='https://youtu.be/oem6GzK7nLQ' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/oem6GzK7nLQ/mqdefault.jpg' alt='¿Por qué RappiBank optó por Flutter?' />
 </a>
@@ -54,9 +57,6 @@
 </a>
 <a href='https://youtu.be/aprSJZ29Wos' target='_blank'>
   <img width='30%' src='https://img.youtube.com/vi/aprSJZ29Wos/mqdefault.jpg' alt='#FlutterDayMeetups Managua - FlutterNi' />
-</a>
-<a href='https://youtu.be/rRmXWUoqWas' target='_blank'>
-  <img width='30%' src='https://img.youtube.com/vi/rRmXWUoqWas/mqdefault.jpg' alt='GDG Arequipa - Meetup Firebase 2020' />
 </a>
 </div>
 
