@@ -4,6 +4,8 @@
 <h3 align="center">Flutter Developer, from Perú</h3>
 
 [![wakatime](https://wakatime.com/badge/user/1fec9835-89e2-46aa-80db-4a59c98b3387.svg)](https://wakatime.com/@1fec9835-89e2-46aa-80db-4a59c98b3387)
+[![twitter](https://img.shields.io/twitter/follow/cerberodev?label=followers&logo=twitter&color=%23007ec6&style=plastic)](https://twitter.com/cerberodev)
+[![github](https://img.shields.io/github/followers/cerberodev?logo=github&style=plastic)](https://github.com/cerberodev?tab=followers)
 
 <p align="center">
    <a href="https://youtube.com/cerberodev" target="_blank" style='margin-right:4px'>
